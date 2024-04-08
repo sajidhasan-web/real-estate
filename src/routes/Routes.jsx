@@ -7,6 +7,7 @@ import SingleFamilyHome from "../components/estates/SingleFamilyHome";
 import Students from "../components/estates/Students";
 import Townhouses from "../components/estates/Townhouses";
 import VacationRentals from "../components/estates/VacationRentals";
+import CardDetails from "../components/commons/CardDetails/CardDetails";
   
   
   const router = createBrowserRouter([
@@ -21,7 +22,12 @@ import VacationRentals from "../components/estates/VacationRentals";
          {
           path: "/apartment",
           element:<Apartment></Apartment>,
-          loader: fetch('/apartmentsData.json'),
+          loader: () => fetch('/apartmentsData.json')
+         },
+         {
+          path: "/apartment/:id",
+          loader: () =>fetch ('/apartmentsData.json'),
+          element: <CardDetails></CardDetails>,
          },    
          {
           path: "/senior-living", 
@@ -42,7 +48,8 @@ import VacationRentals from "../components/estates/VacationRentals";
          {
           path: "/vacation-rentals",
           element: <VacationRentals></VacationRentals>,
-         }   
+         },
+        
       ]
     },
   ]);
