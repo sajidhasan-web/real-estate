@@ -1,0 +1,111 @@
+[
+    {
+      "estate_title": "Modern Townhouse Living",
+      "id": "1",
+      "segment_name": "Townhouses",
+      "description": "Contemporary townhouse with sleek design and spacious interiors. Perfect for urban living with easy access to amenities.",
+      "price": "$450,000",
+      "status": "sale",
+      "area": "1800 sq ft",
+      "location": "123 Maple Street, Urban City",
+      "facilities": ["living room", "kitchen", "garage"],
+      "image_url": "https://example.com/modern_townhouse_living.jpg"
+    },
+    {
+      "estate_title": "Cozy Townhouse Retreat",
+      "id": "2",
+      "segment_name": "Townhouses",
+      "description": "Charming townhouse nestled in a quiet neighborhood. Features a fireplace, private patio, and garden views.",
+      "price": "$350,000",
+      "status": "sale",
+      "area": "1500 sq ft",
+      "location": "456 Oak Avenue, Suburbia",
+      "facilities": ["living room", "kitchen", "fireplace", "private patio"],
+      "image_url": "https://example.com/cozy_townhouse_retreat.jpg"
+    },
+    {
+      "estate_title": "Luxury Townhouse Living",
+      "id": "3",
+      "segment_name": "Townhouses",
+      "description": "Luxurious townhouse with high-end finishes and top-of-the-line amenities. Enjoy the convenience of urban living in style.",
+      "price": "$750,000",
+      "status": "sale",
+      "area": "2500 sq ft",
+      "location": "789 Elm Street, City Center",
+      "facilities": ["living room", "kitchen", "rooftop terrace", "home theater"],
+      "image_url": "https://example.com/luxury_townhouse_living.jpg"
+    },
+    {
+      "estate_title": "Family-Friendly Townhouse",
+      "id": "4",
+      "segment_name": "Townhouses",
+      "description": "Spacious townhouse ideal for families, featuring multiple bedrooms, a backyard, and community amenities like a playground and pool.",
+      "price": "$550,000",
+      "status": "sale",
+      "area": "2000 sq ft",
+      "location": "101 Pine Drive, Family Estates",
+      "facilities": ["living room", "kitchen", "backyard", "playground", "swimming pool"],
+      "image_url": "https://example.com/family_friendly_townhouse.jpg"
+    },
+    {
+      "estate_title": "Urban Townhouse Retreat",
+      "id": "5",
+      "segment_name": "Townhouses",
+      "description": "Sleek and modern townhouse in the heart of the city. Enjoy city views from your rooftop terrace and easy access to downtown attractions.",
+      "price": "$600,000",
+      "status": "sale",
+      "area": "2200 sq ft",
+      "location": "567 Cityscape Avenue, Downtown",
+      "facilities": ["living room", "kitchen", "rooftop terrace", "city views"],
+      "image_url": "https://example.com/urban_townhouse_retreat.jpg"
+    },
+    {
+      "estate_title": "Riverside Townhouse Living",
+      "id": "6",
+      "segment_name": "Townhouses",
+      "description": "Tranquil townhouse located by the river, offering serene views and peaceful surroundings. Perfect for nature lovers.",
+      "price": "$400,000",
+      "status": "sale",
+      "area": "1800 sq ft",
+      "location": "789 Riverside Drive, Riverside Retreat",
+      "facilities": ["living room", "kitchen", "riverside views", "garden"],
+      "image_url": "https://example.com/riverside_townhouse_living.jpg"
+    },
+    {
+      "estate_title": "Historic Townhouse Charm",
+      "id": "7",
+      "segment_name": "Townhouses",
+      "description": "Quaint townhouse with historic charm, featuring original architectural details and a cozy courtyard.",
+      "price": "$500,000",
+      "status": "sale",
+      "area": "2000 sq ft",
+      "location": "123 Heritage Lane, Historic District",
+      "facilities": ["living room", "kitchen", "courtyard", "historic charm"],
+      "image_url": "https://example.com/historic_townhouse_charm.jpg"
+    },
+    {
+      "estate_title": "Family Oasis Townhouse",
+      "id": "8",
+      "segment_name": "Townhouses",
+      "description": "Spacious townhouse with plenty of room for the whole family. Features a backyard oasis with a pool and outdoor entertaining space.",
+      "price": "$650,000",
+      "status": "sale",
+      "area": "2400 sq ft",
+      "location": "456 Oasis Lane, Family Haven",
+      "facilities": ["living room", "kitchen", "backyard oasis", "swimming pool", "outdoor entertaining space"],
+      "image_url": "https://example.com/family_oasis_townhouse.jpg"
+    },
+    {
+      "estate_title": "Modern Urban Retreat",
+      "id": "9",
+      "segment_name": "Townhouses",
+      "description": "Contemporary townhouse in a bustling urban neighborhood. Enjoy modern amenities and convenient access to city life.",
+      "price": "$550,000",
+      "status": "sale",
+      "area": "2100 sq ft",
+      "location": "789 Downtown Avenue, Urban Living",
+      "facilities": ["living room", "kitchen", "balcony", "fitness center"],
+      "image_url": "https://example.com/modern_urban_retreat.jpg"
+    }
+  ]
+  

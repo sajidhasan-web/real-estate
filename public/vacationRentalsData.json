@@ -1,0 +1,111 @@
+[
+    {
+      "estate_title": "Seaside Villa Retreat",
+      "id": "1",
+      "segment_name": "Vacation Rentals",
+      "description": "Escape to this luxurious seaside villa for the ultimate vacation experience. Enjoy breathtaking ocean views and exclusive amenities.",
+      "price": "$500/night",
+      "status": "rent",
+      "area": "3000 sq ft",
+      "location": "123 Oceanfront Avenue, Beachside Paradise",
+      "facilities": ["living room", "kitchen", "swimming pool", "private beach access"],
+      "image_url": "https://example.com/seaside_villa_retreat.jpg"
+    },
+    {
+      "estate_title": "Mountain Chalet Getaway",
+      "id": "2",
+      "segment_name": "Vacation Rentals",
+      "description": "Cozy mountain chalet nestled in the heart of the wilderness. Perfect for a ski vacation or summer retreat.",
+      "price": "$300/night",
+      "status": "rent",
+      "area": "2000 sq ft",
+      "location": "456 Mountain View Road, Alpine Haven",
+      "facilities": ["living room", "kitchen", "fireplace", "hot tub"],
+      "image_url": "https://example.com/mountain_chalet_getaway.jpg"
+    },
+    {
+      "estate_title": "Tropical Beach Bungalow",
+      "id": "3",
+      "segment_name": "Vacation Rentals",
+      "description": "Relax in this charming beach bungalow surrounded by palm trees and ocean breezes. Experience island living at its finest.",
+      "price": "$250/night",
+      "status": "rent",
+      "area": "1000 sq ft",
+      "location": "789 Palm Street, Paradise Island",
+      "facilities": ["living room", "kitchen", "beachfront patio"],
+      "image_url": "https://example.com/tropical_beach_bungalow.jpg"
+    },
+    {
+      "estate_title": "Lakefront Cabin Retreat",
+      "id": "4",
+      "segment_name": "Vacation Rentals",
+      "description": "Rustic cabin nestled along the tranquil shores of a picturesque lake. Perfect for fishing, kayaking, and nature walks.",
+      "price": "$200/night",
+      "status": "rent",
+      "area": "1500 sq ft",
+      "location": "101 Lakeside Drive, Serenity Lake",
+      "facilities": ["living room", "kitchen", "private dock", "canoe"],
+      "image_url": "https://example.com/lakefront_cabin_retreat.jpg"
+    },
+    {
+      "estate_title": "City Penthouse Escape",
+      "id": "5",
+      "segment_name": "Vacation Rentals",
+      "description": "Luxurious penthouse apartment with stunning city views. Experience upscale living in the heart of the urban jungle.",
+      "price": "$400/night",
+      "status": "rent",
+      "area": "1800 sq ft",
+      "location": "567 Skyline Avenue, Downtown Metropolis",
+      "facilities": ["living room", "kitchen", "rooftop terrace", "city views"],
+      "image_url": "https://example.com/city_penthouse_escape.jpg"
+    },
+    {
+      "estate_title": "Desert Oasis Retreat",
+      "id": "6",
+      "segment_name": "Vacation Rentals",
+      "description": "Escape to this desert oasis for a rejuvenating getaway. Relax in the pool, stargaze in the hot tub, and explore the surrounding desert landscape.",
+      "price": "$350/night",
+      "status": "rent",
+      "area": "2200 sq ft",
+      "location": "123 Desert Road, Oasis Valley",
+      "facilities": ["living room", "kitchen", "pool", "hot tub", "desert views"],
+      "image_url": "https://example.com/desert_oasis_retreat.jpg"
+    },
+    {
+      "estate_title": "Ski Chalet Retreat",
+      "id": "7",
+      "segment_name": "Vacation Rentals",
+      "description": "Charming ski chalet nestled in the snowy mountains. Enjoy skiing, snowboarding, and cozy evenings by the fireplace.",
+      "price": "$350/night",
+      "status": "rent",
+      "area": "1800 sq ft",
+      "location": "789 Ski Slope Lane, Snowy Peaks",
+      "facilities": ["living room", "kitchen", "fireplace", "ski-in/ski-out access"],
+      "image_url": "https://example.com/ski_chalet_retreat.jpg"
+    },
+    {
+      "estate_title": "Vineyard Villa Retreat",
+      "id": "8",
+      "segment_name": "Vacation Rentals",
+      "description": "Experience wine country living in this charming vineyard villa. Explore nearby wineries, relax by the pool, and enjoy vineyard views.",
+      "price": "$300/night",
+      "status": "rent",
+      "area": "2500 sq ft",
+      "location": "456 Vineyard Lane, Wine Country",
+      "facilities": ["living room", "kitchen", "vineyard views", "pool"],
+      "image_url": "https://example.com/vineyard_villa_retreat.jpg"
+    },
+    {
+      "estate_title": "Countryside Cottage Retreat",
+      "id": "9",
+      "segment_name": "Vacation Rentals",
+      "description": "Escape to the countryside in this charming cottage retreat. Enjoy peaceful surroundings, scenic views, and outdoor activities.",
+      "price": "$200/night",
+      "status": "rent",
+      "area": "1200 sq ft",
+      "location": "101 Meadow Lane, Countryside Haven",
+      "facilities": ["living room", "kitchen", "garden", "scenic views"],
+      "image_url": "https://example.com/countryside_cottage_retreat.jpg"
+    }
+  ]
+  

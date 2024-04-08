@@ -1,0 +1,119 @@
+[
+    {
+      "estate_title": "Modern Downtown Apartment",
+      "id": "1",
+      "segment_name": "Apartments",
+      "description": "Sleek and stylish apartment located in the heart of downtown. Features contemporary design and breathtaking city views.",
+      "price": "$300,000",
+      "status": "sale",
+      "area": "1200 sq ft",
+      "location": "123 Main Street, Downtown",
+      "facilities": ["living room", "kitchen", "balcony"],
+      "image_url": "https://i.ibb.co/c2vFHvs/Modern-Downtown-Apartment-min.jpg"
+    },
+    {
+      "estate_title": "Luxury High-Rise Living",
+      "id": "2",
+      "segment_name": "Apartments",
+      "description": "Experience luxury living in this high-rise apartment with stunning panoramic views, top-notch amenities, and designer finishes.",
+      "price": "$600,000",
+      "status": "sale",
+      "area": "2000 sq ft",
+      "location": "456 Tower Avenue, Skyline Heights",
+      "facilities": ["living room", "kitchen", "rooftop pool", "fitness center"],
+      "image_url": "https://i.ibb.co/cvyVmPy/Luxury-High-Rise-Living-min.jpg"
+    },
+    {
+      "estate_title": "Cozy Studio Apartment",
+      "id": "3",
+      "segment_name": "Apartments",
+      "description": "Charming studio apartment perfect for urban dwellers seeking comfort and convenience. Features a compact layout and city views.",
+      "price": "$200,000",
+      "status": "sale",
+      "area": "800 sq ft",
+      "location": "789 Elm Street, City Center",
+      "facilities": ["living area", "kitchenette", "city views"],
+      "image_url": "https://i.ibb.co/cFhjyBs/Cozy-Studio-Apartment-min.jpg"
+    },
+    {
+      "estate_title": "Riverside Retreat Apartment",
+      "id": "4",
+      "segment_name": "Apartments",
+      "description": "Tranquil apartment overlooking the river, offering serene views and peaceful surroundings. Ideal for nature lovers.",
+      "price": "$400,000",
+      "status": "sale",
+      "area": "1500 sq ft",
+      "location": "101 Riverwalk Road, Riverside Haven",
+      "facilities": ["living room", "kitchen", "riverside views"],
+      "image_url": "https://i.ibb.co/1dRDFTT/Riverside-Retreat-Apartment-min.jpg"
+    },
+    {
+      "estate_title": "Family-Friendly Apartment Complex",
+      "id": "5",
+      "segment_name": "Apartments",
+      "description": "Spacious apartment complex with family-friendly amenities including a playground, swimming pool, and BBQ area.",
+      "price": "$350,000",
+      "status": "sale",
+      "area": "1800 sq ft",
+      "location": "567 Family Avenue, Suburbia",
+      "facilities": ["living room", "kitchen", "playground", "swimming pool", "BBQ area"],
+      "image_url": "https://i.ibb.co/s3009K8/Family-Friendly-Apartment-Complex-min.jpg"
+    },
+    {
+      "estate_title": "City View Penthouse",
+      "id": "6",
+      "segment_name": "Apartments",
+      "description": "Luxurious penthouse apartment offering breathtaking city views and sophisticated living spaces. Ideal for upscale urban living.",
+      "price": "$1,000,000",
+      "status": "sale",
+      "area": "3000 sq ft",
+      "location": "789 Skyline Drive, Penthouse Plaza",
+      "facilities": ["living room", "kitchen", "city views", "rooftop terrace"],
+      "image_url": "https://i.ibb.co/dBGRymG/City-View-Penthouse-min.jpg"
+    },
+    {
+      "estate_title": "Vintage Chic Apartment",
+      "id": "7",
+      "segment_name": "Apartments",
+      "description": "Quaint apartment with vintage charm and modern amenities. Features hardwood floors, exposed brick, and stylish decor.",
+      "price": "$250,000",
+      "status": "sale",
+      "area": "1000 sq ft",
+      "location": "123 Vintage Lane, Historic District",
+      "facilities": ["living room", "kitchen", "hardwood floors", "exposed brick"],
+      "image_url": "https://i.ibb.co/zZhgjnM/Vintage-Chic-Apartment-min.jpg"
+    },
+    {
+      "estate_title": "Urban Oasis Apartment",
+      "id": "8",
+      "segment_name": "Apartments",
+      "description": "Tranquil apartment oasis nestled in the bustling city. Features lush gardens, a pool, and serene outdoor spaces.",
+      "price": "$450,000",
+      "status": "sale",
+      "area": "1600 sq ft",
+      "location": "456 Oasis Street, Urban Haven",
+      "facilities": ["living room", "kitchen", "garden", "swimming pool"],
+      "image_url": "https://i.ibb.co/S77GqC1/Urban-Oasis-Apartment-min.jpg"
+    },
+    {
+      "estate_title": "Cosmopolitan Loft Apartment",
+      "id": "9",
+      "segment_name": "Apartments",
+      "description": "Chic loft-style apartment in a vibrant cosmopolitan neighborhood. Features open-concept living and industrial-inspired design.",
+      "price": "$500,000",
+      "status": "sale",
+      "area": "2200 sq ft",
+      "location": "789 Loft Avenue, Cosmo District",
+      "facilities": ["open-concept living", "kitchen", "industrial design"],
+      "image_url": "https://i.ibb.co/mRxV923/Cosmopolitan-Loft-Apartment-min.jpg"
+    }
+  ]
+  
+
+
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+[
+    {
+      "estate_title": "Modern Student Apartment",
+      "id": "1",
+      "segment_name": "Student Housing",
+      "description": "Contemporary student apartment offering convenient living spaces and proximity to campus. Ideal for students seeking a modern lifestyle.",
+      "price": "$1,200/month",
+      "status": "rent",
+      "area": "600 sq ft",
+      "location": "123 University Avenue, Campus Heights",
+      "facilities": ["living room", "kitchen", "study area", "shared amenities"],
+      "image_url": "https://example.com/modern_student_apartment.jpg"
+    },
+    {
+      "estate_title": "Cozy Student Studio",
+      "id": "2",
+      "segment_name": "Student Housing",
+      "description": "Cozy student studio apartment perfect for solo living. Features a compact layout and essential amenities for a comfortable stay.",
+      "price": "$900/month",
+      "status": "rent",
+      "area": "400 sq ft",
+      "location": "456 College Street, Campus Corner",
+      "facilities": ["studio layout", "kitchenette", "study space"],
+      "image_url": "https://example.com/cozy_student_studio.jpg"
+    },
+    {
+      "estate_title": "Student Dormitory Room",
+      "id": "3",
+      "segment_name": "Student Housing",
+      "description": "Spacious dormitory room within a student housing complex. Offers shared living spaces and convenient access to campus facilities.",
+      "price": "$700/month",
+      "status": "rent",
+      "area": "300 sq ft",
+      "location": "789 Dormitory Drive, Campus Commons",
+      "facilities": ["shared living area", "shared kitchen", "study lounge"],
+      "image_url": "https://example.com/student_dormitory_room.jpg"
+    },
+    {
+      "estate_title": "Student Townhouse",
+      "id": "4",
+      "segment_name": "Student Housing",
+      "description": "Student-friendly townhouse offering shared accommodations and communal living spaces. Perfect for students looking for a sense of community.",
+      "price": "$1,500/month",
+      "status": "rent",
+      "area": "800 sq ft",
+      "location": "101 Student Street, Campus Village",
+      "facilities": ["shared bedrooms", "shared kitchen", "community events"],
+      "image_url": "https://example.com/student_townhouse.jpg"
+    },
+    {
+      "estate_title": "Affordable Student Apartment",
+      "id": "5",
+      "segment_name": "Student Housing",
+      "description": "Budget-friendly student apartment with essential amenities and proximity to campus. Ideal for students on a tight budget.",
+      "price": "$800/month",
+      "status": "rent",
+      "area": "500 sq ft",
+      "location": "567 Academic Avenue, Campus Commons",
+      "facilities": ["living room", "kitchen", "study area"],
+      "image_url": "https://example.com/affordable_student_apartment.jpg"
+    },
+    {
+      "estate_title": "Student Co-op House",
+      "id": "6",
+      "segment_name": "Student Housing",
+      "description": "Cooperative student house offering shared ownership and responsibilities among residents. Foster a sense of community and cooperation.",
+      "price": "$250,000",
+      "status": "sale",
+      "area": "1500 sq ft",
+      "location": "123 Cooperative Circle, Campus Co-op",
+      "facilities": ["shared bedrooms", "shared kitchen", "communal spaces"],
+      "image_url": "https://example.com/student_coop_house.jpg"
+    },
+    {
+      "estate_title": "Luxury Student Living",
+      "id": "7",
+      "segment_name": "Student Housing",
+      "description": "Luxurious student housing complex offering upscale amenities and modern living spaces. Elevate your student experience with luxury living.",
+      "price": "$1,800/month",
+      "status": "rent",
+      "area": "700 sq ft",
+      "location": "789 Luxury Lane, Campus Heights",
+      "facilities": ["living room", "kitchen", "fitness center", "study lounge"],
+      "image_url": "https://example.com/luxury_student_living.jpg"
+    },
+    {
+      "estate_title": "Student Apartment Community",
+      "id": "8",
+      "segment_name": "Student Housing",
+      "description": "Community-focused student apartment complex offering shared amenities and social activities. Live and study in a vibrant student community.",
+      "price": "$1,000/month",
+      "status": "rent",
+      "area": "600 sq ft",
+      "location": "456 Community Court, Campus Commons",
+      "facilities": ["living room", "kitchen", "pool", "clubhouse"],
+      "image_url": "https://example.com/student_apartment_community.jpg"
+    },
+    {
+      "estate_title": "Student Village Townhomes",
+      "id": "9",
+      "segment_name": "Student Housing",
+      "description": "Townhome-style student residences offering spacious living areas and a sense of independence. Live in comfort within a vibrant student community.",
+      "price": "$1,200/month",
+      "status": "rent",
+      "area": "900 sq ft",
+      "location": "101 Village Way, Campus Village",
+      "facilities": ["living room", "kitchen", "individual bedrooms", "community events"],
+      "image_url": "https://example.com/student_village_townhomes.jpg"
+    }
+  ]
+  

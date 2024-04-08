@@ -1,0 +1,113 @@
+
+[
+    {
+      "estate_title": "Cozy Family Retreat",
+      "id": "1",
+      "segment_name": "Single Family Homes",
+      "description": "A charming single-family home perfect for a small family. Features a spacious living room, modern kitchen, and backyard garden.",
+      "price": "$350,000",
+      "status": "sale",
+      "area": "1800 sq ft",
+      "location": "123 Main Street, Anytown, USA",
+      "facilities": ["living room", "kitchen", "backyard garden"],
+      "image_url": "https://example.com/cozy_family_retreat.jpg"
+    },
+    {
+      "estate_title": "Modern Family Haven",
+      "id": "2",
+      "segment_name": "Single Family Homes",
+      "description": "A contemporary single-family home with sleek design features. Includes a spacious open-plan layout, rooftop terrace, and home office.",
+      "price": "$500,000",
+      "status": "sale",
+      "area": "2500 sq ft",
+      "location": "456 Elm Street, Suburbia, USA",
+      "facilities": ["living room", "kitchen", "rooftop terrace", "home office"],
+      "image_url": "https://example.com/modern_family_haven.jpg"
+    },
+    {
+      "estate_title": "Family Retreat with Pool",
+      "id": "3",
+      "segment_name": "Single Family Homes",
+      "description": "An inviting single-family home with a large swimming pool perfect for family gatherings. Features a spacious layout and landscaped backyard.",
+      "price": "$600,000",
+      "status": "sale",
+      "area": "2800 sq ft",
+      "location": "789 Oak Avenue, Countryside, USA",
+      "facilities": ["living room", "kitchen", "swimming pool", "landscaped backyard"],
+      "image_url": "https://example.com/family_retreat_with_pool.jpg"
+    },
+    {
+      "estate_title": "Quaint Family Cottage",
+      "id": "4",
+      "segment_name": "Single Family Homes",
+      "description": "A picturesque single-family cottage nestled in a quiet neighborhood. Features a cozy fireplace, garden patio, and detached studio.",
+      "price": "$400,000",
+      "status": "sale",
+      "area": "2000 sq ft",
+      "location": "321 Maple Lane, Serenityville, USA",
+      "facilities": ["living room", "kitchen", "fireplace", "garden patio", "detached studio"],
+      "image_url": "https://example.com/quaint_family_cottage.jpg"
+    },
+    {
+      "estate_title": "Spacious Family Villa",
+      "id": "5",
+      "segment_name": "Single Family Homes",
+      "description": "A luxurious single-family villa offering ample space and privacy. Features a grand foyer, gourmet kitchen, and private garden oasis.",
+      "price": "$1,200,000",
+      "status": "sale",
+      "area": "4500 sq ft",
+      "location": "101 Pine Drive, Estateville, USA",
+      "facilities": ["living room", "kitchen", "gourmet kitchen", "private garden oasis"],
+      "image_url": "https://example.com/spacious_family_villa.jpg"
+    },
+    {
+      "estate_title": "Family Home with Mountain View",
+      "id": "6",
+      "segment_name": "Single Family Homes",
+      "description": "A charming single-family home boasting stunning mountain views. Features a cozy den, outdoor deck, and landscaped yard.",
+      "price": "$700,000",
+      "status": "sale",
+      "area": "3000 sq ft",
+      "location": "567 Mountain View Road, Scenicville, USA",
+      "facilities": ["living room", "kitchen", "cozy den", "outdoor deck", "landscaped yard"],
+      "image_url": "https://example.com/family_home_with_mountain_view.jpg"
+    },
+    {
+      "estate_title": "Rustic Family Farmhouse",
+      "id": "7",
+      "segment_name": "Single Family Homes",
+      "description": "A charming rustic farmhouse perfect for a family seeking a peaceful country lifestyle. Features a wrap-around porch, barn, and vegetable garden.",
+      "price": "$450,000",
+      "status": "sale",
+      "area": "2200 sq ft",
+      "location": "876 Farm Road, Rusticville, USA",
+      "facilities": ["living room", "kitchen", "wrap-around porch", "barn", "vegetable garden"],
+      "image_url": "https://example.com/rustic_family_farmhouse.jpg"
+    },
+    {
+      "estate_title": "Family Home Near the Beach",
+      "id": "8",
+      "segment_name": "Single Family Homes",
+      "description": "A delightful single-family home located just steps from the beach. Features ocean views, spacious bedrooms, and a sunroom.",
+      "price": "$800,000",
+      "status": "sale",
+      "area": "3200 sq ft",
+      "location": "987 Beachside Avenue, Shoreville, USA",
+      "facilities": ["living room", "kitchen", "ocean views", "sunroom"],
+      "image_url": "https://example.com/family_home_near_beach.jpg"
+    },
+    {
+      "estate_title": "Family Retreat in the Woods",
+      "id": "9",
+      "segment_name": "Single Family Homes",
+      "description": "A serene single-family home nestled in the woods, offering tranquility and privacy. Features a cozy fireplace, wrap-around deck, and nature trails.",
+      "price": "$550,000",
+      "status": "sale",
+      "area": "2600 sq ft",
+      "location": "654 Forest Lane, Woodland Heights, USA",
+      "facilities": ["living room", "kitchen", "cozy fireplace", "wrap-around deck", "nature trails"],
+      "image_url": "https://example.com/family_retreat_in_woods.jpg"
+    }
+  ]
+  
+  
