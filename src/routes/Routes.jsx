@@ -8,6 +8,8 @@ import Students from "../components/estates/Students";
 import Townhouses from "../components/estates/Townhouses";
 import VacationRentals from "../components/estates/VacationRentals";
 import CardDetails from "../components/commons/CardDetails/CardDetails";
+import Login from "../components/pages/Login";
+import Register from "../components/pages/Register";
   
   
   const router = createBrowserRouter([
@@ -49,7 +51,14 @@ import CardDetails from "../components/commons/CardDetails/CardDetails";
           path: "/vacation-rentals",
           element: <VacationRentals></VacationRentals>,
          },
-        
+         {
+          path:"/login",
+          element:<Login></Login>
+         },
+         {
+          path:"/register",
+          element:<Register></Register>
+         }
       ]
     },
   ]);

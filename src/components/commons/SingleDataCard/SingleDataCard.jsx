@@ -1,19 +1,18 @@
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 const SingleDataCard = ({ singleData }) => {
   const {
     estate_title,
-    segment_name,
     description,
     price,
     status,
     area,
     location,
-    facilities,
     image_url,
   } = singleData;
   return (
-    <div className="card bg-base-100">
+    <div className="flex flex-col bg-base-100 transition hover:shadow-xl group">
       <figure className="w-full">
         <img
           className="max-w-full md:h-[400px] object-cover"
@@ -22,7 +21,7 @@ const SingleDataCard = ({ singleData }) => {
         />
       </figure>
       <div className="card-body">
-        <h2 className="text-xl md:text-2xl font-bold">{estate_title}</h2>
+        <h2 className="text-xl lg:text-2xl font-bold hover:underline">{estate_title}</h2>
         <p className="text-gray-400 italic">{location}</p>
         <p>
           Price:
@@ -49,6 +48,10 @@ const SingleDataCard = ({ singleData }) => {
       </div>
     </div>
   );
+};
+
+SingleDataCard.propTypes = {
+  singleData: PropTypes.object.isRequired,
 };
 
 export default SingleDataCard;
