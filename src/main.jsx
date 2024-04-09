@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import router from './routes/Routes.jsx'
 import { RouterProvider } from 'react-router-dom'
-import { AuthContext } from './firebaseProvider/FirebaseProvider.jsx'
+
 
 
 
@@ -12,8 +12,8 @@ import { AuthContext } from './firebaseProvider/FirebaseProvider.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <AuthContext>
+    {/* <AuthContext> */}
       <RouterProvider router={router} />
-    </AuthContext>
+    {/* </AuthContext> */}
   </React.StrictMode>,
 )
