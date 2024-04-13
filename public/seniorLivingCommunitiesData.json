@@ -1,6 +1,6 @@
 [
     {
-      "estate_title": "Tranquil Senior Community",
+      "estate_title": "Senior Living Communities",
       "id": "1",
       "segment_name": "Senior Living Communities",
       "description": "A peaceful senior community nestled in a serene neighborhood. Offers comfortable living spaces and access to various amenities.",
@@ -9,7 +9,7 @@
       "area": "1200 sq ft",
       "location": "123 Oak Lane, Serenity Village",
       "facilities": ["living room", "kitchen", "community center", "garden"],
-      "image_url": "https://example.com/tranquil_senior_community.jpg"
+      "image_url": "https://i.ibb.co/Qc5szhG/Senior-Condo-Living-min.jpg"
     },
     {
       "estate_title": "Active Senior Living Complex",
@@ -21,7 +21,7 @@
       "area": "1000 sq ft",
       "location": "456 Willow Road, Active Meadows",
       "facilities": ["living room", "kitchen", "fitness center", "social lounge"],
-      "image_url": "https://example.com/active_senior_living_complex.jpg"
+      "image_url": "https://i.ibb.co/yQFVjbB/Senior-Co-op-Community-min.jpg"
     },
     {
       "estate_title": "Retirement Village Retreat",
@@ -33,7 +33,7 @@
       "area": "1500 sq ft",
       "location": "789 Maple Street, Retirement Haven",
       "facilities": ["living room", "kitchen", "assisted living services", "walking trails"],
-      "image_url": "https://example.com/retirement_village_retreat.jpg"
+      "image_url": "https://i.ibb.co/vzQ17mb/Senior-Living-Communities-min.jpg"
     },
     {
       "estate_title": "Luxury Senior Residence",
@@ -45,7 +45,7 @@
       "area": "2000 sq ft",
       "location": "101 Rosewood Lane, Prestige Estates",
       "facilities": ["living room", "kitchen", "spa", "fine dining restaurant"],
-      "image_url": "https://example.com/luxury_senior_residence.jpg"
+      "image_url": "https://i.ibb.co/yRNftPT/Active-Senior-Living-Complex-min.jpg"
     },
     {
       "estate_title": "Senior Co-op Community",
@@ -57,7 +57,7 @@
       "area": "1800 sq ft",
       "location": "567 Elm Avenue, Co-op Community",
       "facilities": ["living room", "kitchen", "shared amenities", "community events"],
-      "image_url": "https://example.com/senior_coop_community.jpg"
+      "image_url": "https://i.ibb.co/2SbQT9j/husband-wife-having-nice-date-cafe-min.jpg"
     },
     {
       "estate_title": "Senior Condo Living",
@@ -69,43 +69,14 @@
       "area": "900 sq ft",
       "location": "123 Sunset Boulevard, Condo Court",
       "facilities": ["living room", "kitchen", "community clubhouse", "fitness classes"],
-      "image_url": "https://example.com/senior_condo_living.jpg"
-    },
-    {
-      "estate_title": "Senior Resort Lifestyle",
-      "id": "7",
-      "segment_name": "Senior Living Communities",
-      "description": "Experience resort-style living for seniors with luxurious amenities and a full calendar of social and recreational activities.",
-      "price": "$5,000/month",
-      "status": "rent",
-      "area": "1800 sq ft",
-      "location": "789 Ocean View Drive, Resort Haven",
-      "facilities": ["living room", "kitchen", "pool", "golf course", "restaurant"],
-      "image_url": "https://example.com/senior_resort_lifestyle.jpg"
-    },
-    {
-      "estate_title": "Assisted Living Community",
-      "id": "8",
-      "segment_name": "Senior Living Communities",
-      "description": "Comfortable assisted living community offering personalized care services and support for seniors needing assistance with daily activities.",
-      "price": "$4,000/month",
-      "status": "rent",
-      "area": "1600 sq ft",
-      "location": "456 Magnolia Lane, Caregivers Community",
-      "facilities": ["living room", "kitchen", "24-hour care staff", "medical services"],
-      "image_url": "https://example.com/assisted_living_community.jpg"
-    },
-    {
-      "estate_title": "Senior Garden Retreat",
-      "id": "9",
-      "segment_name": "Senior Living Communities",
-      "description": "Tranquil senior garden retreat surrounded by lush greenery and peaceful surroundings. Enjoy a relaxing lifestyle in harmony with nature.",
-      "price": "$300,000",
-      "status": "sale",
-      "area": "1400 sq ft",
-      "location": "101 Garden Avenue, Green Haven",
-      "facilities": ["living room", "kitchen", "community garden", "walking paths"],
-      "image_url": "https://example.com/senior_garden_retreat.jpg"
+      "image_url": "https://i.ibb.co/MR6j0DK/Luxury-Senior-Residence-min.jpg"
     }
   ]
   
+
+
+
+
+
+
+

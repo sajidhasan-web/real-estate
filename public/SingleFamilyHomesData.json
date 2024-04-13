@@ -10,7 +10,7 @@
       "area": "1800 sq ft",
       "location": "123 Main Street, Anytown, USA",
       "facilities": ["living room", "kitchen", "backyard garden"],
-      "image_url": "https://example.com/cozy_family_retreat.jpg"
+      "image_url": "https://i.ibb.co/sRPXJ37/Cozy-Family-Retreat-min.jpg"
     },
     {
       "estate_title": "Modern Family Haven",
@@ -22,7 +22,7 @@
       "area": "2500 sq ft",
       "location": "456 Elm Street, Suburbia, USA",
       "facilities": ["living room", "kitchen", "rooftop terrace", "home office"],
-      "image_url": "https://example.com/modern_family_haven.jpg"
+      "image_url": "https://i.ibb.co/WFBNJs4/Modern-Family-Haven-min.jpg"
     },
     {
       "estate_title": "Family Retreat with Pool",
@@ -34,7 +34,7 @@
       "area": "2800 sq ft",
       "location": "789 Oak Avenue, Countryside, USA",
       "facilities": ["living room", "kitchen", "swimming pool", "landscaped backyard"],
-      "image_url": "https://example.com/family_retreat_with_pool.jpg"
+      "image_url": "https://i.ibb.co/HGTm9h8/Family-Retreat-with-Pool-min.jpg"
     },
     {
       "estate_title": "Quaint Family Cottage",
@@ -46,7 +46,7 @@
       "area": "2000 sq ft",
       "location": "321 Maple Lane, Serenityville, USA",
       "facilities": ["living room", "kitchen", "fireplace", "garden patio", "detached studio"],
-      "image_url": "https://example.com/quaint_family_cottage.jpg"
+      "image_url": "https://i.ibb.co/5jnBSHL/Quaint-Family-Cottage-min.jpg"
     },
     {
       "estate_title": "Spacious Family Villa",
@@ -58,7 +58,7 @@
       "area": "4500 sq ft",
       "location": "101 Pine Drive, Estateville, USA",
       "facilities": ["living room", "kitchen", "gourmet kitchen", "private garden oasis"],
-      "image_url": "https://example.com/spacious_family_villa.jpg"
+      "image_url": "https://i.ibb.co/PhTr4Z3/Spacious-Family-Villa-min.jpg"
     },
     {
       "estate_title": "Family Home with Mountain View",
@@ -70,44 +70,12 @@
       "area": "3000 sq ft",
       "location": "567 Mountain View Road, Scenicville, USA",
       "facilities": ["living room", "kitchen", "cozy den", "outdoor deck", "landscaped yard"],
-      "image_url": "https://example.com/family_home_with_mountain_view.jpg"
-    },
-    {
-      "estate_title": "Rustic Family Farmhouse",
-      "id": "7",
-      "segment_name": "Single Family Homes",
-      "description": "A charming rustic farmhouse perfect for a family seeking a peaceful country lifestyle. Features a wrap-around porch, barn, and vegetable garden.",
-      "price": "$450,000",
-      "status": "sale",
-      "area": "2200 sq ft",
-      "location": "876 Farm Road, Rusticville, USA",
-      "facilities": ["living room", "kitchen", "wrap-around porch", "barn", "vegetable garden"],
-      "image_url": "https://example.com/rustic_family_farmhouse.jpg"
-    },
-    {
-      "estate_title": "Family Home Near the Beach",
-      "id": "8",
-      "segment_name": "Single Family Homes",
-      "description": "A delightful single-family home located just steps from the beach. Features ocean views, spacious bedrooms, and a sunroom.",
-      "price": "$800,000",
-      "status": "sale",
-      "area": "3200 sq ft",
-      "location": "987 Beachside Avenue, Shoreville, USA",
-      "facilities": ["living room", "kitchen", "ocean views", "sunroom"],
-      "image_url": "https://example.com/family_home_near_beach.jpg"
-    },
-    {
-      "estate_title": "Family Retreat in the Woods",
-      "id": "9",
-      "segment_name": "Single Family Homes",
-      "description": "A serene single-family home nestled in the woods, offering tranquility and privacy. Features a cozy fireplace, wrap-around deck, and nature trails.",
-      "price": "$550,000",
-      "status": "sale",
-      "area": "2600 sq ft",
-      "location": "654 Forest Lane, Woodland Heights, USA",
-      "facilities": ["living room", "kitchen", "cozy fireplace", "wrap-around deck", "nature trails"],
-      "image_url": "https://example.com/family_retreat_in_woods.jpg"
+      "image_url": "https://i.ibb.co/1v2fyF3/Family-Home-with-Mountain-View-min.jpg"
     }
   ]
   
-  
+
+
+
+
+

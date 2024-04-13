@@ -33,23 +33,53 @@ import Register from "../components/pages/Register";
          },    
          {
           path: "/senior-living", 
-          element: <SeniorLivingCommunites></SeniorLivingCommunites>
+          element: <SeniorLivingCommunites></SeniorLivingCommunites>,
+          loader: () => fetch('/seniorLivingCommunitiesData.json')
+         },
+         {
+          path: "/senior-living/:id",
+          loader: () =>fetch ('/seniorLivingCommunitiesData.json'),
+          element: <CardDetails></CardDetails>,
          },    
          {
           path: "/single-family-home", 
-          element:<SingleFamilyHome></SingleFamilyHome>
+          element:<SingleFamilyHome></SingleFamilyHome>,
+          loader: () => fetch('/SingleFamilyHomesData.json')
+         },
+         {
+          path: "/single-family-home/:id",
+          loader: () =>fetch ('/SingleFamilyHomesData.json'),
+          element: <CardDetails></CardDetails>,
          },
          {
           path: "/student-living",
           element:<Students></Students>,
+          loader: () => fetch('/studentHousingData.json')
+         },
+         {
+          path: "/student-living/:id",
+          loader: () =>fetch ('/studentHousingData'),
+          element: <CardDetails></CardDetails>,
          },
          {
           path: "/townhouses",
           element: <Townhouses></Townhouses>,
+          loader: () => fetch('/townhousesData.json')
          }, 
+         {
+          path: "/townhouses/:id",
+          loader: () =>fetch ('/townhousesData.json'),
+          element: <CardDetails></CardDetails>,
+         },
          {
           path: "/vacation-rentals",
           element: <VacationRentals></VacationRentals>,
+          loader: () => fetch('/vacationRentalsData.json')
+         },
+         {
+          path: "/vacation-rentals/:id",
+          loader: () =>fetch ('/vacationRentalsData.json'),
+          element: <CardDetails></CardDetails>,
          },
          {
           path:"/login",

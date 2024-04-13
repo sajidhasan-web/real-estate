@@ -9,7 +9,7 @@
       "area": "3000 sq ft",
       "location": "123 Oceanfront Avenue, Beachside Paradise",
       "facilities": ["living room", "kitchen", "swimming pool", "private beach access"],
-      "image_url": "https://example.com/seaside_villa_retreat.jpg"
+      "image_url": "https://i.ibb.co/KjCVx92/Seaside-Villa-Retreat-min.jpg"
     },
     {
       "estate_title": "Mountain Chalet Getaway",
@@ -21,7 +21,7 @@
       "area": "2000 sq ft",
       "location": "456 Mountain View Road, Alpine Haven",
       "facilities": ["living room", "kitchen", "fireplace", "hot tub"],
-      "image_url": "https://example.com/mountain_chalet_getaway.jpg"
+      "image_url": "https://i.ibb.co/JqQfN1G/Mountain-Chalet-Getaway-min.jpg"
     },
     {
       "estate_title": "Tropical Beach Bungalow",
@@ -33,7 +33,7 @@
       "area": "1000 sq ft",
       "location": "789 Palm Street, Paradise Island",
       "facilities": ["living room", "kitchen", "beachfront patio"],
-      "image_url": "https://example.com/tropical_beach_bungalow.jpg"
+      "image_url": "https://i.ibb.co/KG78NGp/Tropical-Beach-Bungalow-min.jpg"
     },
     {
       "estate_title": "Lakefront Cabin Retreat",
@@ -45,7 +45,7 @@
       "area": "1500 sq ft",
       "location": "101 Lakeside Drive, Serenity Lake",
       "facilities": ["living room", "kitchen", "private dock", "canoe"],
-      "image_url": "https://example.com/lakefront_cabin_retreat.jpg"
+      "image_url": "https://i.ibb.co/CHWCptv/Lakefront-Cabin-Retreat-min.jpg"
     },
     {
       "estate_title": "City Penthouse Escape",
@@ -57,7 +57,7 @@
       "area": "1800 sq ft",
       "location": "567 Skyline Avenue, Downtown Metropolis",
       "facilities": ["living room", "kitchen", "rooftop terrace", "city views"],
-      "image_url": "https://example.com/city_penthouse_escape.jpg"
+      "image_url": "https://i.ibb.co/P5sP1Yd/City-Penthouse-Escape-min.jpg"
     },
     {
       "estate_title": "Desert Oasis Retreat",
@@ -69,43 +69,13 @@
       "area": "2200 sq ft",
       "location": "123 Desert Road, Oasis Valley",
       "facilities": ["living room", "kitchen", "pool", "hot tub", "desert views"],
-      "image_url": "https://example.com/desert_oasis_retreat.jpg"
-    },
-    {
-      "estate_title": "Ski Chalet Retreat",
-      "id": "7",
-      "segment_name": "Vacation Rentals",
-      "description": "Charming ski chalet nestled in the snowy mountains. Enjoy skiing, snowboarding, and cozy evenings by the fireplace.",
-      "price": "$350/night",
-      "status": "rent",
-      "area": "1800 sq ft",
-      "location": "789 Ski Slope Lane, Snowy Peaks",
-      "facilities": ["living room", "kitchen", "fireplace", "ski-in/ski-out access"],
-      "image_url": "https://example.com/ski_chalet_retreat.jpg"
-    },
-    {
-      "estate_title": "Vineyard Villa Retreat",
-      "id": "8",
-      "segment_name": "Vacation Rentals",
-      "description": "Experience wine country living in this charming vineyard villa. Explore nearby wineries, relax by the pool, and enjoy vineyard views.",
-      "price": "$300/night",
-      "status": "rent",
-      "area": "2500 sq ft",
-      "location": "456 Vineyard Lane, Wine Country",
-      "facilities": ["living room", "kitchen", "vineyard views", "pool"],
-      "image_url": "https://example.com/vineyard_villa_retreat.jpg"
-    },
-    {
-      "estate_title": "Countryside Cottage Retreat",
-      "id": "9",
-      "segment_name": "Vacation Rentals",
-      "description": "Escape to the countryside in this charming cottage retreat. Enjoy peaceful surroundings, scenic views, and outdoor activities.",
-      "price": "$200/night",
-      "status": "rent",
-      "area": "1200 sq ft",
-      "location": "101 Meadow Lane, Countryside Haven",
-      "facilities": ["living room", "kitchen", "garden", "scenic views"],
-      "image_url": "https://example.com/countryside_cottage_retreat.jpg"
+      "image_url": "https://i.ibb.co/jVTmrZD/Desert-Oasis-Retreat-min.jpg"
     }
   ]
   
+
+
+
+
+
+

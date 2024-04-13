@@ -30,7 +30,7 @@ const CardDetails = () => {
         />
         <div className="md:p-6 space-y-2 lg:col-span-5">
           <div className="card-body">
-            <p className="text-sky-400 font-semibold">{segment_name}*</p>
+            <p className="text-sky-400 font-semibold">#{segment_name}</p>
             <h3 className="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">
               {estate_title}
             </h3>
