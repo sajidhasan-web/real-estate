@@ -136,6 +136,7 @@ const Login = () => {
               register
             </Link>
           </p>
+          <div className="divider">Login with</div>
           <div className="text-2xl flex justify-center items-center gap-4 mt-5">
             <p onClick={handleGoogleLogin} className="hover:-translate-y-2 transition cursor-pointer"><FaGoogle></FaGoogle></p>
             <p onClick={handleGithubLogin} className="hover:-translate-y-2 transition cursor-pointer"><FaGithub></FaGithub></p>

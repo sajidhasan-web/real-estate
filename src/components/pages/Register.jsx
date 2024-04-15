@@ -38,7 +38,7 @@ const Register = () => {
           </h2>
         </div>
 
-        <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+        <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm border-2 border-blue-500 p-6 rounded-lg shadow-xl bg-white">
           <form  onSubmit={handleSubmit(onSubmit)} className="space-y-6">
             <div>
               <label
