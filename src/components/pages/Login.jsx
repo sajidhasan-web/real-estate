@@ -1,8 +1,33 @@
 
+
+import { useContext, useState } from "react";
+import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../firebaseProvider/FirebaseProvider";
+import { IoMdEye, IoMdEyeOff } from "react-icons/io";
 
 
 const Login = () => {
+  const [passwordShow, setPasswordShow] = useState(false)
+  const {signInUser} = useContext(AuthContext);
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
+  const onSubmit = (data) => {
+    const {email, password} = data;
+    signInUser(email, password)
+    .then((result) => {
+    console.log(result.user);
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+    
+  }
 
 
 
@@ -16,7 +41,7 @@ const Login = () => {
         </div>
 
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-          <form className="space-y-6">
+          <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
             <div>
               <label
                 htmlFor="email"
@@ -26,18 +51,19 @@ const Login = () => {
               </label>
               <div className="mt-2">
                 <input
-                  id="email"
+                
                   name="email"
                   type="email"
-                  autoComplete="email"
-                  required
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  
+                  className="block w-full rounded-md border-0 py-1.5 px-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  {...register("email", { required: true })}
                 />
               </div>
+                {errors.email && <span className="text-red-500">This field is required</span>}
             </div>
 
             <div>
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between relative">
                 <label
                   htmlFor="password"
                   className="block text-sm font-medium leading-6 text-gray-900"
@@ -52,17 +78,24 @@ const Login = () => {
                     Forgot password?
                   </a>
                 </div>
+                 <span onClick={()=> setPasswordShow(!passwordShow)} className="absolute top-10 right-5 text-xl">
+                  {
+                    passwordShow? <IoMdEyeOff /> : <IoMdEye />
+                  }
+                  
+                  </span>
               </div>
               <div className="mt-2">
                 <input
-                  id="password"
+                  
                   name="password"
-                  type="password"
-                  autoComplete="current-password"
-                  required
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  type={passwordShow ? "text" : "password"}
+                 
+                  className="block w-full rounded-md border-0 py-1.5 px-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  {...register("password", { required: true })}
                 />
               </div>
+                 {errors.password && <span className="text-red-500">This field is required</span>}
             </div>
 
             <div>
