@@ -5,11 +5,13 @@ import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../firebaseProvider/FirebaseProvider";
 import { IoMdEye, IoMdEyeOff } from "react-icons/io";
+import { FaGithub, FaGoogle } from "react-icons/fa";
+
 
 
 const Login = () => {
   const [passwordShow, setPasswordShow] = useState(false)
-  const {signInUser} = useContext(AuthContext);
+  const {signInUser, loginWithGoogle, loginWithGithub} = useContext(AuthContext);
 
   const {
     register,
@@ -28,19 +30,37 @@ const Login = () => {
     });
     
   }
+ 
+
+  const handleGoogleLogin = () => {
+    loginWithGoogle()
+    .then((result) => {
+      console.log(result.user);
+    }).catch((error) => {
+    console.error(error)
+    });
+  }
+  const handleGithubLogin = () => {
+    loginWithGithub()
+    .then((result) => {
+      console.log(result.user);
+    }).catch((error) => {
+    console.error(error)
+    });
+  }
 
 
 
   return (
     <div>
-      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
-        <div className="sm:mx-auto sm:w-full sm:max-w-sm">
+      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 ">
+        <div className="sm:mx-auto sm:w-full sm:max-w-sm ">
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
             Sign in to your account
           </h2>
         </div>
 
-        <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+        <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm border-2 border-blue-500 p-6 rounded-lg shadow-xl bg-white">
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
             <div>
               <label
@@ -116,6 +136,10 @@ const Login = () => {
               register
             </Link>
           </p>
+          <div className="text-2xl flex justify-center items-center gap-4 mt-5">
+            <p onClick={handleGoogleLogin} className="hover:-translate-y-2 transition cursor-pointer"><FaGoogle></FaGoogle></p>
+            <p onClick={handleGithubLogin} className="hover:-translate-y-2 transition cursor-pointer"><FaGithub></FaGithub></p>
+          </div>
         </div>
       </div>
     </div>
