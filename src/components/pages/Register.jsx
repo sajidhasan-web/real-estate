@@ -1,12 +1,13 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { AuthContext } from "../../firebaseProvider/FirebaseProvider";
-
-
+import { toast, ToastContainer } from 'react-toastify';
 
 
 const Register = () => {
+     
+
 
 
     const {createUser} = useContext(AuthContext);
@@ -20,11 +21,14 @@ const Register = () => {
       const {email, password} = data;
       createUser(email, password)
       .then((result) => {
-      console.log(result.user);
+        console.log(result.user);
+        toast.success('Account created successfully!');
       })
       .catch((error) => {
         console.error(error);
+      
       });
+      notify1();
       
     }
 
@@ -135,6 +139,7 @@ const Register = () => {
               </button>
             </div>
           </form>
+          <ToastContainer />
 
           <p className="mt-10 text-center text-sm text-gray-500">
            If Already Have an Account?{" "}

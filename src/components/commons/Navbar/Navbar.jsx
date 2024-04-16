@@ -81,15 +81,16 @@ const Navbar = () => {
           {
             user ? (
               <div className="dropdown dropdown-bottom dropdown-end dropdown-hover">
-                <div className="avatar">
-                  <div className="w-12 rounded-full border-2 border-blue-600">
+                <div className="avatar ">
+                  <div className="w-10 rounded-full border-2 border-blue-600  flex justify-center items-center">
                   {
-                    user? (
+                    user.photoURL ? (
                       <img src={user.photoURL} alt="" />
                     ) : (
                       <CgProfile className="text-4xl text-blue-600"></CgProfile>
                     )
                   }
+                
                   </div>
                 </div>
                 <ul className="menu menu-sm dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52 space-y-2 font-bold text-opacity-90">

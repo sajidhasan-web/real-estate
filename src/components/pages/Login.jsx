@@ -12,7 +12,7 @@ import { FaGithub, FaGoogle } from "react-icons/fa";
 const Login = () => {
   const [passwordShow, setPasswordShow] = useState(false)
   const {signInUser, loginWithGoogle, loginWithGithub} = useContext(AuthContext);
-
+ 
   const {
     register,
     handleSubmit,
@@ -36,6 +36,7 @@ const Login = () => {
     loginWithGoogle()
     .then((result) => {
       console.log(result.user);
+     
     }).catch((error) => {
     console.error(error)
     });

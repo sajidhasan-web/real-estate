@@ -10,6 +10,7 @@ import VacationRentals from "../components/estates/VacationRentals";
 import CardDetails from "../components/commons/CardDetails/CardDetails";
 import Login from "../components/pages/Login";
 import Register from "../components/pages/Register";
+import PrivateRoute from "../privateRoute/PrivateRoute";
   
   
   const router = createBrowserRouter([
@@ -29,7 +30,7 @@ import Register from "../components/pages/Register";
          {
           path: "/apartment/:id",
           loader: () =>fetch ('/apartmentsData.json'),
-          element: <CardDetails></CardDetails>,
+          element: <PrivateRoute><CardDetails></CardDetails></PrivateRoute>,
          },    
          {
           path: "/senior-living", 
@@ -39,7 +40,7 @@ import Register from "../components/pages/Register";
          {
           path: "/senior-living/:id",
           loader: () =>fetch ('/seniorLivingCommunitiesData.json'),
-          element: <CardDetails></CardDetails>,
+          element: <PrivateRoute><CardDetails></CardDetails></PrivateRoute>,
          },    
          {
           path: "/single-family-home", 
@@ -49,7 +50,7 @@ import Register from "../components/pages/Register";
          {
           path: "/single-family-home/:id",
           loader: () =>fetch ('/SingleFamilyHomesData.json'),
-          element: <CardDetails></CardDetails>,
+          element: <PrivateRoute><CardDetails></CardDetails></PrivateRoute>,
          },
          {
           path: "/student-living",
@@ -59,7 +60,7 @@ import Register from "../components/pages/Register";
          {
           path: "/student-living/:id",
           loader: () =>fetch ('/studentHousingData'),
-          element: <CardDetails></CardDetails>,
+          element: <PrivateRoute><CardDetails></CardDetails></PrivateRoute>,
          },
          {
           path: "/townhouses",
@@ -69,7 +70,7 @@ import Register from "../components/pages/Register";
          {
           path: "/townhouses/:id",
           loader: () =>fetch ('/townhousesData.json'),
-          element: <CardDetails></CardDetails>,
+          element: <PrivateRoute><CardDetails></CardDetails></PrivateRoute>,
          },
          {
           path: "/vacation-rentals",
@@ -79,7 +80,7 @@ import Register from "../components/pages/Register";
          {
           path: "/vacation-rentals/:id",
           loader: () =>fetch ('/vacationRentalsData.json'),
-          element: <CardDetails></CardDetails>,
+          element: <PrivateRoute><CardDetails></CardDetails></PrivateRoute>,
          },
          {
           path:"/login",

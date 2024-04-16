@@ -4,7 +4,7 @@ import './index.css'
 import router from './routes/Routes.jsx'
 import { RouterProvider } from 'react-router-dom'
 import FirebaseProvider from './firebaseProvider/FirebaseProvider.jsx'
-
+import { ToastContainer} from 'react-toastify';
 
 
 
@@ -16,5 +16,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <FirebaseProvider>
       <RouterProvider router={router} />
     </FirebaseProvider>
+    <ToastContainer></ToastContainer>
    </React.StrictMode>,
 )
