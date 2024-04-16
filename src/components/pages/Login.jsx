@@ -6,13 +6,18 @@ import { Link } from "react-router-dom";
 import { AuthContext } from "../../firebaseProvider/FirebaseProvider";
 import { IoMdEye, IoMdEyeOff } from "react-icons/io";
 import { FaGithub, FaGoogle } from "react-icons/fa";
-
+import {
+  useLocation,
+  useNavigate
+} from "react-router-dom";
 
 
 const Login = () => {
   const [passwordShow, setPasswordShow] = useState(false)
   const {signInUser, loginWithGoogle, loginWithGithub} = useContext(AuthContext);
- 
+  const navigate = useNavigate()
+  const location = useLocation()
+  const from = location?.state || '/' ;
   const {
     register,
     handleSubmit,
@@ -24,6 +29,7 @@ const Login = () => {
     signInUser(email, password)
     .then((result) => {
     console.log(result.user);
+    navigate(from)
     })
     .catch((error) => {
       console.error(error);
@@ -36,6 +42,7 @@ const Login = () => {
     loginWithGoogle()
     .then((result) => {
       console.log(result.user);
+      navigate(from)
      
     }).catch((error) => {
     console.error(error)
@@ -45,6 +52,7 @@ const Login = () => {
     loginWithGithub()
     .then((result) => {
       console.log(result.user);
+      navigate(from)
     }).catch((error) => {
     console.error(error)
     });

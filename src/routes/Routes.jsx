@@ -11,12 +11,15 @@ import CardDetails from "../components/commons/CardDetails/CardDetails";
 import Login from "../components/pages/Login";
 import Register from "../components/pages/Register";
 import PrivateRoute from "../privateRoute/PrivateRoute";
+import Error from "../components/pages/Error";
+import Profile from "../components/pages/Profile";
   
   
   const router = createBrowserRouter([
     {
       path: "/",
       element: <Root></Root>,
+      errorElement:<Error></Error>,
       children: [
         {
           path: "/",
@@ -89,6 +92,10 @@ import PrivateRoute from "../privateRoute/PrivateRoute";
          {
           path:"/register",
           element:<Register></Register>
+         },
+         {
+          path:'/profile',
+          element:<Profile></Profile>
          }
       ]
     },

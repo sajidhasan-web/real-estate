@@ -2,15 +2,22 @@ import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { AuthContext } from "../../firebaseProvider/FirebaseProvider";
-import { toast, ToastContainer } from 'react-toastify';
+import {
+ 
+  useNavigate
+} from "react-router-dom";
+import { set } from "firebase/database";
 
 
 const Register = () => {
      
-
-
-
+    const [errorMessage, setErrorMessage] = useState('')
+    const navigate = useNavigate()
     const {createUser} = useContext(AuthContext);
+
+    const uppercaseRegex = /[A-Z]/;
+    const lowercaseRegex = /[a-z]/;
+    const minLength = 6;
 
     const {
       register,
@@ -19,16 +26,34 @@ const Register = () => {
     } = useForm()
     const onSubmit = (data) => {
       const {email, password} = data;
+      if (!uppercaseRegex.test(password)) {
+        return setErrorMessage("Password must contain at least one uppercase letter.");
+    }
+
+    if (!lowercaseRegex.test(password)) {
+        return setErrorMessage("Password must contain at least one lowercase letter.");
+    }
+
+    if (password.length < minLength) {
+        return setErrorMessage(`Password must be at least ${minLength} characters long.`);
+    }
+
+  
+       
+     
       createUser(email, password)
       .then((result) => {
         console.log(result.user);
-        toast.success('Account created successfully!');
+        navigate('/login')
+       
       })
       .catch((error) => {
         console.error(error);
       
       });
-      notify1();
+
+      
+     setErrorMessage('')
       
     }
 
@@ -43,7 +68,8 @@ const Register = () => {
         </div>
 
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm border-2 border-blue-500 p-6 rounded-lg shadow-xl bg-white">
-          <form  onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+          <span className="text-sm text-red-600"> {errorMessage}</span>
+          <form  onSubmit={handleSubmit (onSubmit)} className="space-y-6">
             <div>
               <label
                 htmlFor="name"
@@ -139,7 +165,7 @@ const Register = () => {
               </button>
             </div>
           </form>
-          <ToastContainer />
+        
 
           <p className="mt-10 text-center text-sm text-gray-500">
            If Already Have an Account?{" "}
