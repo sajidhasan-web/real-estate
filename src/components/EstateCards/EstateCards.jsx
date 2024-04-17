@@ -15,7 +15,7 @@ const EstateCards = () => {
     <div className="mt-10 md:mt-14">
       <h2 className="text-center text-2xl md:text-4xl font-bold pb-8 md:pb-12">Discover the Property Types</h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <Link to={"/apartment"}>
+        <Link to={"/apartment"} data-aos="fade-up" data-aos-duration="2000">
           <div className="card bg-base-100 border">
             <figure className="px-10 pt-10">
               <img
@@ -29,7 +29,7 @@ const EstateCards = () => {
             </div>
           </div>
         </Link>
-        <Link to={"/single-family-home"}>
+        <Link to={"/single-family-home"} data-aos="fade-up" data-aos-duration="2000">
           <div className="card  bg-base-100  border">
             <figure className="px-10 pt-10">
               <img
@@ -43,7 +43,7 @@ const EstateCards = () => {
             </div>
           </div>
         </Link>
-        <Link to={"/senior-living"}>
+        <Link to={"/senior-living"} data-aos="fade-up" data-aos-duration="2000">
           <div className="card  bg-base-100 border">
             <figure className="px-10 pt-10">
               <img
@@ -57,7 +57,7 @@ const EstateCards = () => {
             </div>
           </div>
         </Link>
-        <Link to={"/student-living"} data-aos="fade-right" data-aos-duration="2000">
+        <Link to={"/student-living"} data-aos="fade-up" data-aos-duration="2000">
           <div className="card  bg-base-100 border">
             <figure className="px-10 pt-10">
               <img
@@ -85,7 +85,7 @@ const EstateCards = () => {
             </div>
           </div>
         </Link>
-        <Link to={"/vacation-rentals"} data-aos="fade-left" data-aos-duration="2000">
+        <Link to={"/vacation-rentals"} data-aos="fade-up" data-aos-duration="2000">
           <div className="card  bg-base-100 border">
             <figure className="px-10 pt-10">
               <img

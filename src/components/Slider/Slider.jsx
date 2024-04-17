@@ -39,55 +39,55 @@ const Slider = () => {
       >
         <SwiperSlide>
         <div
-        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] w-full"
+        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] lg:h-[600px] xl:h-[700px]  w-full"
         style={{ backgroundImage: `url(${slide1})`}}
         ></div>
         </SwiperSlide>
         <SwiperSlide>
         <div
-        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] w-full"
+        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] lg:h-[600px] xl:h-[700px] w-full"
         style={{ backgroundImage: `url(${slide2})` }}
         ></div>
         </SwiperSlide>
         <SwiperSlide>
         <div
-        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] w-full"
+        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] lg:h-[600px] xl:h-[700px] w-full"
         style={{ backgroundImage: `url(${slide3})` }}
         ></div>
         </SwiperSlide>
         <SwiperSlide>
         <div
-        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] w-full"
+        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] lg:h-[600px] xl:h-[700px] w-full"
         style={{ backgroundImage: `url(${slide4})` }}
         ></div>
         </SwiperSlide>
         <SwiperSlide>
         <div
-        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] w-full"
+        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] lg:h-[600px] xl:h-[700px] w-full"
         style={{ backgroundImage: `url(${slide5})` }}
         ></div>
         </SwiperSlide>
         <SwiperSlide>
         <div
-        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] w-full"
+        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] lg:h-[600px] xl:h-[700px] w-full"
         style={{ backgroundImage: `url(${slide6})` }}
         ></div>
         </SwiperSlide>
         <SwiperSlide>
         <div
-        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] w-full"
+        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] lg:h-[600px] xl:h-[700px] w-full"
         style={{ backgroundImage: `url(${slide7})` }}
         ></div>
-        </SwiperSlide>
+        </SwiperSlide> 
         <SwiperSlide>
         <div
-        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] w-full"
+        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] lg:h-[600px] xl:h-[700px] w-full"
         style={{ backgroundImage: `url(${slide8})` }}
         ></div>
         </SwiperSlide>
         <SwiperSlide>
         <div
-        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] w-full"
+        className="bg-cover bg-no-repeat bg-center h-[300px] md:h-[500px] lg:h-[600px] xl:h-[700px] w-full"
         style={{ backgroundImage: `url(${slide9})` }}
         ></div>
         </SwiperSlide>

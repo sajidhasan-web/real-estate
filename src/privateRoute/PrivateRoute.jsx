@@ -1,27 +1,31 @@
 import { useContext } from "react";
 import { AuthContext } from "../firebaseProvider/FirebaseProvider";
-import PropTypes from 'prop-types';
-import {
-    useLocation,
-    Navigate
-  } from "react-router-dom";
+import PropTypes from "prop-types";
+import { useLocation, Navigate } from "react-router-dom";
 
-const PrivateRoute = ({children}) => {
+const PrivateRoute = ({ children }) => {
+  const location = useLocation();
 
-    const location = useLocation();
-
-    const {user} = useContext(AuthContext)
+  const { user, loading } = useContext(AuthContext);
+  if (loading) {
     return (
-        <div>
-            {
-              user ? children : <Navigate to={'/login'} state={location?.pathname || '/'}></Navigate>
-            }
-        </div>
+      <div className="h-[calc(100vh-470px)] flex justify-center items-center">
+        <span className="loading loading-spinner loading-lg bg-primary"></span>
+      </div>
     );
+  }
+  if (!user) {
+    return <Navigate to="/login" state={location?.pathname || "/"} />;
+  }
+  return (
+    <div>
+      {children}
+    </div>
+  );
 };
 
 PrivateRoute.propTypes = {
-    children: PropTypes.node.isRequired,
-}
+  children: PropTypes.node.isRequired,
+};
 
 export default PrivateRoute;

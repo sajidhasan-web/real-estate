@@ -2,18 +2,15 @@ import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { AuthContext } from "../../firebaseProvider/FirebaseProvider";
-import {
- 
-  useNavigate
-} from "react-router-dom";
-import { set } from "firebase/database";
+import { useNavigate } from "react-router-dom";
+
 
 
 const Register = () => {
      
     const [errorMessage, setErrorMessage] = useState('')
     const navigate = useNavigate()
-    const {createUser} = useContext(AuthContext);
+    const {createUser, updateProfileInfo} = useContext(AuthContext);
 
     const uppercaseRegex = /[A-Z]/;
     const lowercaseRegex = /[a-z]/;
@@ -25,7 +22,8 @@ const Register = () => {
       formState: { errors },
     } = useForm()
     const onSubmit = (data) => {
-      const {email, password} = data;
+      const {email, password, photoUrl, fullName} = data;
+      console.log(photoUrl, fullName);
       if (!uppercaseRegex.test(password)) {
         return setErrorMessage("Password must contain at least one uppercase letter.");
     }
@@ -44,13 +42,16 @@ const Register = () => {
       createUser(email, password)
       .then((result) => {
         console.log(result.user);
-        navigate('/login')
-       
+        return updateProfileInfo(fullName, photoUrl);
+      })
+      .then(() => {
+        navigate('/login');
       })
       .catch((error) => {
         console.error(error);
-      
       });
+
+      
 
       
      setErrorMessage('')
