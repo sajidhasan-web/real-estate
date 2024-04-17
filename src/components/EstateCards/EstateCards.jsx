@@ -5,6 +5,10 @@ import cardImage3 from "../../assets/estateCardImages/seniorLiving-min.jpg";
 import cardImage4 from "../../assets/estateCardImages/studentHouseing-min.jpg";
 import cardImage5 from "../../assets/estateCardImages/townhouse-min.jpg";
 import cardImage6 from "../../assets/estateCardImages/vacationRentals-min.jpg";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const EstateCards = () => {
   return (
@@ -53,7 +57,7 @@ const EstateCards = () => {
             </div>
           </div>
         </Link>
-        <Link to={"/student-living"}>
+        <Link to={"/student-living"} data-aos="fade-right" data-aos-duration="2000">
           <div className="card  bg-base-100 border">
             <figure className="px-10 pt-10">
               <img
@@ -67,7 +71,7 @@ const EstateCards = () => {
             </div>
           </div>
         </Link>
-        <Link to={"/townhouses"}>
+        <Link to={"/townhouses"} data-aos="fade-up" data-aos-duration="2000">
           <div className="card  bg-base-100 border">
             <figure className="px-10 pt-10">
               <img
@@ -81,7 +85,7 @@ const EstateCards = () => {
             </div>
           </div>
         </Link>
-        <Link to={"/vacation-rentals"}>
+        <Link to={"/vacation-rentals"} data-aos="fade-left" data-aos-duration="2000">
           <div className="card  bg-base-100 border">
             <figure className="px-10 pt-10">
               <img
