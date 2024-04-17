@@ -70,42 +70,6 @@
       "location": "789 Skyline Drive, Penthouse Plaza",
       "facilities": ["living room", "kitchen", "city views", "rooftop terrace"],
       "image_url": "https://i.ibb.co/dBGRymG/City-View-Penthouse-min.jpg"
-    },
-    {
-      "estate_title": "Vintage Chic Apartment",
-      "id": "7",
-      "segment_name": "Apartments",
-      "description": "Quaint apartment with vintage charm and modern amenities. Features hardwood floors, exposed brick, and stylish decor.",
-      "price": "$250,000",
-      "status": "sale",
-      "area": "1000 sq ft",
-      "location": "123 Vintage Lane, Historic District",
-      "facilities": ["living room", "kitchen", "hardwood floors", "exposed brick"],
-      "image_url": "https://i.ibb.co/zZhgjnM/Vintage-Chic-Apartment-min.jpg"
-    },
-    {
-      "estate_title": "Urban Oasis Apartment",
-      "id": "8",
-      "segment_name": "Apartments",
-      "description": "Tranquil apartment oasis nestled in the bustling city. Features lush gardens, a pool, and serene outdoor spaces.",
-      "price": "$450,000",
-      "status": "sale",
-      "area": "1600 sq ft",
-      "location": "456 Oasis Street, Urban Haven",
-      "facilities": ["living room", "kitchen", "garden", "swimming pool"],
-      "image_url": "https://i.ibb.co/S77GqC1/Urban-Oasis-Apartment-min.jpg"
-    },
-    {
-      "estate_title": "Cosmopolitan Loft Apartment",
-      "id": "9",
-      "segment_name": "Apartments",
-      "description": "Chic loft-style apartment in a vibrant cosmopolitan neighborhood. Features open-concept living and industrial-inspired design.",
-      "price": "$500,000",
-      "status": "sale",
-      "area": "2200 sq ft",
-      "location": "789 Loft Avenue, Cosmo District",
-      "facilities": ["open-concept living", "kitchen", "industrial design"],
-      "image_url": "https://i.ibb.co/mRxV923/Cosmopolitan-Loft-Apartment-min.jpg"
     }
   ]
   
