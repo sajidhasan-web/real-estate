@@ -15,15 +15,11 @@ SkylineSolutions is a dynamic and feature-rich web platform designed to provide 
 
 ## Technologies Used
 - **Frontend**: React.js, HTML, CSS, JavaScript
-- **Backend**: Firebase (Authentication, Realtime Database)
 - **State Management**: React Context API
 - **Form Handling**: React Hook Form
 - **UI Icons**: React Icons
 - **Routing**: React Router DOM
-- **Toast Notifications**: React Toastify
 - **SEO Optimization**: React Helmet Async
-- **Data Sorting and Filtering**: match-sorter, sort-by
-- **Data Storage**: Localforage
 - **Responsive Design**: Swiper, React Fast Marquee
 
 
