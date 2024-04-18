@@ -54,6 +54,18 @@ const Navbar = () => {
         </NavLink>
       </li>
        }
+        <li className="flex">
+        <NavLink
+          to={"/contactUs"}
+          className={({ isActive }) =>
+            isActive
+              ? "border-b-2 dark:border- dark:text-violet-600 dark:border-violet-600 flex items-center px-4 -mb-1"
+              : "flex items-center px-4 -mb-1"
+          }
+        >
+          Contact Us
+        </NavLink>
+        </li>
       
     </>
   );
@@ -92,6 +104,9 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link to={"/profile"}>Profile</Link>
+                </li>
+                <li>
+                  <Link to={"/contactUs"}>Contact Us</Link>
                 </li>
                
                 <li>
@@ -152,6 +167,9 @@ const Navbar = () => {
                     <li>
                       <Link to={"/"}>Home</Link>
                     </li>
+                    <li>
+                      <Link to={"/contactUs"}>Contact Us</Link>
+                   </li>
                     {user ? (
                       <>
                         {" "}
@@ -172,6 +190,7 @@ const Navbar = () => {
                     )}
                   </ul>
                 ) : null}
+                 
               </div>
             </div>
           </div>
