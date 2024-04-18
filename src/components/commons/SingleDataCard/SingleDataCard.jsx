@@ -41,6 +41,7 @@ const SingleDataCard = ({ singleData }) => {
             <span className="text-blue-500 cursor-pointer block hover:underline">read more</span>
             </Link>
            
+           <Link to={`${singleData.id}`}> <button className="btn btn-sm btn-primary mt-3">View Property</button></Link>
           </p>
         ) : (
           <p>{description}</p>

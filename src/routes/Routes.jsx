@@ -13,6 +13,7 @@ import Register from "../components/pages/Register";
 import PrivateRoute from "../privateRoute/PrivateRoute";
 import Error from "../components/pages/Error";
 import Profile from "../components/pages/Profile";
+import PrivateProfile from "../privateRoute/PrivateProfile";
   
   
   const router = createBrowserRouter([
@@ -95,7 +96,7 @@ import Profile from "../components/pages/Profile";
          },
          {
           path:'/profile',
-          element:<Profile></Profile>
+          element:<PrivateProfile><Profile></Profile></PrivateProfile>,
          }
       ]
     },

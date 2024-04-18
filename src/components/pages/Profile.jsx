@@ -1,12 +1,38 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../../firebaseProvider/FirebaseProvider";
+import { useForm } from "react-hook-form";
 
 const Profile = () => {
-  const {user} = useContext(AuthContext)
-  console.log(user);
+    const [loading, setLoading] = useState(false)
+  const {user, updateProfileInfo} = useContext(AuthContext)
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm()
+
+
+  const onSubmit = (data) => {
+    setLoading(true)
+    const {fullName, photoUrl} = data;
+    console.log(fullName, photoUrl);
+    updateProfileInfo(fullName, photoUrl)
+    .then(() => {
+         console.log("Profile updated");
+         setLoading(false)
+    })
+    .catch((error) => {
+       console.error(error);
+       setLoading(false)
+     });
+
+  }
+
+ 
   return (
-    <div>
-      <div className="h-[calc(100vh-470px)] p-8 md:flex items-center sm:space-x-6 dark:bg-gray-50 dark:text-gray-800">
+    <div className="md:flex justify-around">
+      <div className="md:h-[calc(100vh-470px)] p-8 md:flex items-center sm:space-x-6 dark:bg-gray-50 dark:text-gray-800">
         <div className="flex-shrink-0 w-full mb-6 h-44 sm:h-32 sm:w-32 sm:mb-0">
           <img
             src={user.photoURL}
@@ -40,8 +66,59 @@ const Profile = () => {
             </span>
            
           </div>
+          <div>
+             <p className="text-wrap overflow-auto"><span className="font-bold">PhotoURL:</span> <span className="text-wrap hover:underline"><a href={user?.photoURL}>{user?.photoURL}</a></span></p>
+          </div>
         </div>
       </div>
+      <form onSubmit={ handleSubmit(onSubmit)}>
+      <div>
+      <div>
+              <label
+                htmlFor="name"
+                className="block text-sm font-medium leading-6 text-gray-900"
+              >
+                Name
+              </label>
+              <div className="mt-2">
+                <input
+                  
+                  name="fullName"
+                  type="text"
+                  
+                  className="block w-full rounded-md border-0 py-1.5 px-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  {...register("fullName", { required: true })}
+                />
+                 
+              </div>
+              {errors.name && <span className="text-red-500">This field is required</span>}
+            </div>
+            <div>
+              <label
+                htmlFor="photoUrl"
+                className="block text-sm font-medium leading-6 text-gray-900"
+              >
+               Photo
+              </label>
+              <div className="mt-2">
+                <input
+                  id="photoUrl"
+                  name="photoUrl"
+                  type="text"
+                  
+                  className="block w-full rounded-md border-0 py-1.5 px-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  {...register("photoUrl", { required: true })}
+                />
+                 
+              </div>
+              {errors.email && <span className="text-red-500">This field is required</span>}
+            </div>
+            <div>
+                <button type="submit" className="btn btn-sm btn-primary mt-4">Update Profile</button>
+            </div>
+      </div>
+       
+      </form>
     </div>
   );
 };
